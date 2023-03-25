@@ -28,15 +28,15 @@
     <!-- Estilos Propios -->
     <link rel="stylesheet" href="css/estilos_welcome.css">
 </head>
-<body class="relative bg-zinc-800">
+<body class="relative bg-zinc-900">
 
     <header>
         <div class="flex flex-wrap">
             <div class="w-full">
-              <nav class="relative flex flex-wrap items-center justify-between px-2 py-6 bg-gradient-to-r from-indigo-500 via-indigo-800 to-red-700">
+              <nav class="relative flex flex-wrap items-center justify-between px-4 py-2 bg-zinc-900 border-b border-zinc-900">
                 <div class="container mx-auto flex flex-wrap items-center justify-between">
                   <div class="w-full relative flex justify-between items-center lg:w-auto lg:static lg:block lg:justify-start">
-                    <h2 class="text-lg font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white bg-zinc-800 rounded-xl px-4">
+                    <h2 class="leading-relaxed inline-block py-2 whitespace-nowrap uppercase font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-indigo-400 to-indigo-700">
                       MarketCL
                     </h2>
                     <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button">
@@ -47,27 +47,32 @@
                   </div>
                   <div class="flex lg:flex-grow items-center" id="example-navbar-info">
                     <ul class="flex flex-col items-center lg:flex-row list-none ml-auto gap-6">
-                        <li class="nav-item">
+                        <!--<li class="nav-item">
                             <div class="box">
                                 <div class="container-1 bg-white py-2 px-4 rounded-xl">
                                     <span class="icon"><i class="fa fa-search pr-2 text-zinc-800"></i></span>
                                     <input class="text-zinc-800 placeholder-zinc-600 bg-white" type="search" id="search" placeholder="Buscar..." />
                                 </div>
                             </div>
-                        </li>
+                        </li>-->
                         <li class="nav-item">
-                            <a class="flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                             Inicio
+                            <a class="flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#ulises">
+                                <i class="fa fa-search pr-2"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                            <a class="flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 transition transform duration-300 ease-in-out hover:opacity-75 border-b-2 border-transparent hover:border-indigo-600" href="#ulises">
+                             Productos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 transition transform duration-300 ease-in-out hover:opacity-75 border-b-2 border-transparent hover:border-indigo-600" href="#ulises">
                             Servicios
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="flex items-center text-sm uppercase font-bold leading-snug text-white hover:opacity-75" href="#!">
-                                <i class="fa-solid fa-user px-3 py-3 bg-zinc-800 rounded-xl"></i>
+                            <a class="flex items-center justify-center text-xs uppercase font-bold leading-snug text-white hover:text-indigo-500 transition transform duration-300 ease-in-out hover:opacity-75 border-b-2 border-transparent hover:border-indigo-600" href="#!">
+                                Iniciar Sesión
                             </a>
                         </li>
                     </ul>
